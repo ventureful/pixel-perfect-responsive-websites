@@ -41,3 +41,4 @@ One--page webpage containing infoormation provided by Omnifood, with simple navi
     ![Font](font.png)
     
 * Code project --- see files in the repo: `build-responsive-real-world-websites-with-html5-css3/omnifood`
+    * **resources folder** is for content created by us, **vendors folder** is for provided content from the customer
