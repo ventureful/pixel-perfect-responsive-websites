@@ -8,8 +8,54 @@ html {
     background-color: #fff;
     color: #555;
     font-family: 'Lato', 'Arial', sans-serif;
+    /*all other font-sizes will by percents of this so only this one has to be changd and everything else will scale accordingly*/
     font-size: 20px;
     font-weight: 300;
     text-rendering: optimizeLegibility;
 }
 
+.row {
+    max-width: 1140px;
+    margin: 0 auto; /*top/bottom: 0, left/right: auto*/
+}
+
+header {
+    /*the linear-gradient (from black to black) puts an overlay on the image so the text will show up*/
+    background-image: linear-gradient(rgba(0 ,0 ,0 , 0.7), rgba(0, 0, 0, 0.7)), url('img/hero.jpg');
+    background-size: cover; /*makes the image fit the viewport*/
+    background-position: center;
+    height: 100vh; /*makes it 100% of the viewport height*/
+}
+
+.hero-text-box {
+    position: absolute; /*absolite allows us to vertically and horizontally center it*/
+    width: 1140px;
+    /*the following settings make the text centered in the box*/
+    top: 50%;
+    left: 50%;
+    /*currently centered by the beginning of the text, this shifts it by half the width and half the height so it is actually centered*/
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    margin: 0;
+    color: #fff;
+    font-size: 240%;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+}
+
+.btn {
+    
+}
+
+.btn-full {
+    
+
+}
+
+.btn-ghost {
+    
+}

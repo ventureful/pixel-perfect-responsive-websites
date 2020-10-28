@@ -16,8 +16,6 @@ One--page webpage containing infoormation provided by Omnifood, with simple navi
 
 ![Header](Section0.png)
 
-![Footer](Section00.png)
-
 ![Features](Section1.png)
 
 ![Favorite Meals](Section2.png)
@@ -32,6 +30,8 @@ One--page webpage containing infoormation provided by Omnifood, with simple navi
 
 ![Contact Form](Section7.png)
 
+![Footer](Section8.png)
+
 ## Step 4: Design and Develop Website
 
 * Pick Colors and Fonts
@@ -42,3 +42,51 @@ One--page webpage containing infoormation provided by Omnifood, with simple navi
     
 * Code project --- see files in the repo: `build-responsive-real-world-websites-with-html5-css3/omnifood`
     * **resources folder** is for content created by us, **vendors folder** is for provided content from the customer
+    
+### Coding Sections
+
+text content in: `../../provided_course_files/omnifood/contents/omnifood-content.docx` (also pages and rtf formats)
+
+#### Section 0: Header
+
+Learn:
+* put text on an image
+* make image darker
+* make image as high as the browser viewport
+* make a vertically and horizontally centered box
+* design buttons
+* the 4 link states in CSS: link, visited, hover, active
+* CSS3 transitions for small animations
+* create simple navigation
+
+#### Section 1
+
+Learn:
+
+#### Section 2
+
+Learn:
+
+#### Section 3
+
+Learn:
+
+#### Section 4
+
+Learn:
+
+#### Section 5
+
+Learn:
+
+#### Section 6
+
+Learn:
+
+#### Section 7
+
+Learn:
+
+#### Section 8
+
+Learn:
