@@ -62,6 +62,9 @@ Learn:
 #### Section 1
 
 Learn:
+* put content on a website directly from CSS with the `:after` pseudo-class
+* use fluid-grid
+* use icons
 
 #### Section 2
 
