@@ -80,9 +80,11 @@ Learn:
 * new technique to make separations between sections
 * incorporate App Store and Play Store buttons
 
-#### Section 4
+#### Section 4: Cities
 
 Learn:
+* use small icons aligned with text
+* style generic links
 
 #### Section 5
 
