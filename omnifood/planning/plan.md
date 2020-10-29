@@ -69,6 +69,9 @@ Learn:
 #### Section 2
 
 Learn:
+* make grid of images
+* do a 'zoom-in' transition using only CSS
+* make `<img>` elements darker
 
 #### Section 3
 

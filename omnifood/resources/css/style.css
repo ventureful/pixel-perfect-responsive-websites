@@ -19,6 +19,7 @@ html {
     text-rendering: optimizeLegibility;
 }
 
+
 /* ------------------------------------------- */
 /* REUSABLE COMPONENTS */
 /* ------------------------------------------- */
@@ -143,6 +144,7 @@ h3 {
     color: #fff;
 }
 
+
 /* ------------------------------------------- */
 /* HEADER */
 /* ------------------------------------------- */
@@ -197,4 +199,30 @@ header {
 .main-nav li a:hover,
 .main-nav li a:active {
     border-bottom: 2px solid #e67e22;
+}
+
+
+/* ------------------------------------------- */
+/* MEALS */
+/* ------------------------------------------- */
+
+.meals-showcase {
+    list-style: none;
+    width: 100%;
+}
+
+.meals-showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.meal-photo {
+    width: 100%; /*gives it full width of it's parent element - the li*/
+    margin: 0;
+}
+
+.meal-photo img {
+    width: 100%;
+    height: auto;
 }
