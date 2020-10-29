@@ -59,23 +59,26 @@ Learn:
 * CSS3 transitions for small animations
 * create simple navigation
 
-#### Section 1
+#### Section 1: Features
 
 Learn:
 * put content on a website directly from CSS with the `:after` pseudo-class
 * use fluid-grid
 * use icons
 
-#### Section 2
+#### Section 2: Meals
 
 Learn:
 * make grid of images
 * do a 'zoom-in' transition using only CSS
 * make `<img>` elements darker
 
-#### Section 3
+#### Section 3: How-it-works
 
 Learn:
+* draw circles with CSS
+* new technique to make separations between sections
+* incorporate App Store and Play Store buttons
 
 #### Section 4
 
