@@ -98,10 +98,13 @@ Learn:
 * design with border radius
 * create box shadows with CSS
 
-#### Section 7
+#### Section 7: Contact
 
 Learn:
+* HTML elements to create forms: form, label, input, select, option, textarea
+* how to style these various elements
 
-#### Section 8
+#### Section 8 : Footer
 
 Learn:
+* 
