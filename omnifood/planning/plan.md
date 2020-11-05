@@ -92,9 +92,11 @@ Learn:
 * create a new background-image effect
 * effectively communicate what customers have to say
 
-#### Section 6
+#### Section 6: Sign-up 
 
 Learn:
+* design with border radius
+* create box shadows with CSS
 
 #### Section 7
 
