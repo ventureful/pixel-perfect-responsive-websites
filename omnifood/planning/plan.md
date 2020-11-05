@@ -86,9 +86,11 @@ Learn:
 * use small icons aligned with text
 * style generic links
 
-#### Section 5
+#### Section 5: Customer Testimonials
 
 Learn:
+* create a new background-image effect
+* effectively communicate what customers have to say
 
 #### Section 6
 
