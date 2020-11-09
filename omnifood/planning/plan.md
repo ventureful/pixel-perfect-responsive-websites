@@ -106,5 +106,8 @@ Learn:
 
 #### Section 8 : Footer
 
+* Note: in a more complicated website, the footer usually repeats the main navigation ---  but not necessary in our case
+
 Learn:
-* 
+* build simple footer
+* use social icons

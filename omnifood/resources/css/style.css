@@ -507,7 +507,30 @@ input[type=checkbox] {
 }
 
 
+/* ------------------------------------------- */
+/* FOOTER */
+/* ------------------------------------------- */
 
+footer {
+    margin-top: 30px;
+    background-color: #f4f4f4;
+}
+
+footer ul {
+    list-style: none;
+}
+
+.footer-nav li {
+    float: left;
+}
+
+.social-links li {
+    float: right
+}
+
+footer p {
+    text-align: center;
+}
 
 
 
