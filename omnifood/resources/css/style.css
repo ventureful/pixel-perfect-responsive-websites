@@ -6,6 +6,7 @@
 * {
     margin: 0;
     padding: 0;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box
 }
 
@@ -146,6 +147,7 @@ a:hover,
 a:active {
     color: #555;
     border-bottom: 1px solid transparent;
+    -webkit-transition: border-bottom 0.2s, color 0.2s;
     transition: border-bottom 0.2s, color 0.2s;
 }
 
@@ -161,6 +163,7 @@ input[type=submit] {
     text-decoration: none;
     border-radius: 200px;
     /*makes listed elements transition in the specified time rather than instantly*/
+    -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
     transition: background-color 0.2s, border 0.2s, color 0.2s;
 }
 
@@ -204,6 +207,7 @@ input[type=submit] {
 
 header {
     /*the linear-gradient (from black to black) puts an overlay on the image so the text will show up*/
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0 ,0 ,0 , 0.7)), to(rgba(0, 0, 0, 0.7))), url('img/hero.jpg');
     background-image: linear-gradient(rgba(0 ,0 ,0 , 0.7), rgba(0, 0, 0, 0.7)), url('img/hero.jpg');
     background-size: cover; /*makes the image fit the viewport*/
     background-position: center;
@@ -218,6 +222,7 @@ header {
     top: 50%;
     left: 50%;
     /*currently centered by the beginning of the text, this shifts it by half the width and half the height so it is actually centered*/
+    -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
 
@@ -247,6 +252,7 @@ header {
     text-transform: uppercase;
     font-size: 90%;
     border-bottom: 2px solid transparent; /*makes an invisible border that will change color when we hover*/
+    -webkit-transition: border-bottom 0.2s;
     transition: border-bottom 0.2s;
 }
 
@@ -295,12 +301,17 @@ header {
     opacity: 0.7;
     width: 100%;
     height: auto;
+    -webkit-transform: scale(1.15);
     transform: scale(1.15);
+    -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+    transition: opacity 0.5s, -webkit-transform 0.5s;
     transition: transform 0.5s, opacity 0.5s;
+    transition: transform 0.5s, opacity 0.5s, -webkit-transform 0.5s;
 }
 
 .meal-photo img:hover {
     opacity: 1;
+    -webkit-transform: scale(1);
     transform: scale(1);
 }
 
@@ -383,6 +394,9 @@ header {
 
 .section-testimonials {
     background-image: 
+        -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), 
+        url(img/back-customers.jpg);
+    background-image: 
         linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
         url(img/back-customers.jpg);
     background-size: cover;
@@ -437,6 +451,7 @@ cite img {
     width: 90%;
     margin-left: 5%;
     /*x-axis y-axis blur color*/
+    -webkit-box-shadow: 0 2px 2px #e3e3e3;
     box-shadow: 0 2px 2px #e3e3e3;
 }
 
@@ -550,6 +565,7 @@ footer {
     text-decoration: none;
     border: 0;
     color: #888;
+    -webkit-transition: color 0.2s;
     transition: color 0.2s;
 }
 
@@ -567,6 +583,7 @@ footer {
 .ion-social-twitter,
 .ion-social-googleplus,
 .ion-social-instagram {
+    -webkit-transition: color 0.2s;
     transition: color 0.2s;
 }
 

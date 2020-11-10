@@ -112,9 +112,19 @@ Learn:
 * build simple footer
 * use social icons
 
-#### Make Page Responsive
+#### Make Page Responsive with Media Queries
 
 * breakpoints can be at standard screen sizes OR at nearby points where the design starts to look bad
 
 ![Screen Breakpoints](breakpoints.png "Screen Breakpoints")
 (sizes for iPhone and iPad from 2015)
+
+#### Consistent Browser Appearance
+
+* each browser renders HTML and CSS slightly differently
+* view on multiple browsers to check/test
+* use CSS browser prefixes to make CSS3 appear the same in every browser
+     ![Browser Prefixes](browserPrefixes.png "Browser Prefixes")
+     
+     * Note: in Brackets, use autoprefixer extension: `Edit -> Auto prefix selection`
+* JS scripts for older browsers     
