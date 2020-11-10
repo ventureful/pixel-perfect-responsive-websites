@@ -111,3 +111,10 @@ Learn:
 Learn:
 * build simple footer
 * use social icons
+
+#### Make Page Responsive
+
+* breakpoints can be at standard screen sizes OR at nearby points where the design starts to look bad
+
+![Screen Breakpoints](breakpoints.png "Screen Breakpoints")
+(sizes for iPhone and iPad from 2015)
