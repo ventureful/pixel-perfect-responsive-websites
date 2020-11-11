@@ -128,3 +128,14 @@ Learn:
      
      * Note: in Brackets, use autoprefixer extension: `Edit -> Auto prefix selection`
 * JS scripts for older browsers     
+
+#### jQuery for effects
+
+* [Magnific Popup](https://dimsemenov.com/plugins/magnific-popup/)
+* [Tooltipster](https://www.heteroclito.fr/modules/tooltipster/)
+* [Maplace.js](http://ch-ny.com/content/themes/bridge-child/js/libs/maplace.js/)
+* [Typer.js](https://steven.codes/typerjs/)
+* [One Page Scroll](http://peachananr.github.io/onepage-scroll/Demo/demo.html)
+
+Learn:
+* sticky nav
