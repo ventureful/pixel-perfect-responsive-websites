@@ -281,6 +281,8 @@ header {
     width: 100%;
     background-color: rgba(255, 255, 255, 0.98);
     box-shadow: 0 2px 2px #efefef;
+    /*keeps sticky nav on top of all the other elements --- was going behind the picture gallery without this*/
+    z-index: 9999;  
 }
 
 .sticky .main-nav {

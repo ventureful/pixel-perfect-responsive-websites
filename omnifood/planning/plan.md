@@ -139,3 +139,4 @@ Learn:
 
 Learn:
 * sticky nav
+    * use [Waypoints](http://imakewebthings.com/waypoints/) to trigger the sticky nav when scrolling
