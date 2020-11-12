@@ -81,7 +81,7 @@
     section {
         padding: 30px 0;
     }
-    
+
     .logo {
         height: 80px;
         width: auto;
@@ -101,6 +101,45 @@
         display: none;
     }
 
+    .mobile-nav-icon {
+        display: inline-block;
+    }
+
+    .main-nav {
+        float: left;
+        margin-top: 35px;
+        margin-left: 25px;
+    }
+
+    .main-nav li {
+        display: block;
+    }
+
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 100%;
+    }
+
+    .sticky .main-nav {
+        margin-top: 10px;
+    }
+
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited {
+        padding: 10px 0;
+    }
+
+    .sticky .mobile-nav-icon {
+        margin: 10px;
+    }
+
+    .sticky .mobile-nav-icon i {
+        color: #555;
+    }
+
     h1 {
         font-size: 180%;  
     }
@@ -114,7 +153,7 @@
         width: 100%;
         margin: 0;
     }
-    
+
     .icon-big {
         font-size: 250%;
         margin-bottom: 5px;
@@ -151,7 +190,7 @@
         width: auto;
         margin-top: 5px;
     }
-    
+
     .box img {
         width: 90%;
         height: auto;
@@ -185,7 +224,7 @@
         height: 30px;
         margin-left: 5%;
     }
-    
+
     .footer-nav {
         float: none;
         text-align: center;
@@ -203,7 +242,7 @@
     section {
         padding: 25px 0;
     }
-    
+
     .contact-form {
         width: 100%;
     }
