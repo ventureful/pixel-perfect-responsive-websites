@@ -144,6 +144,7 @@ Learn:
 * add animations on scroll
     * uses [Animate.css](https://animate.style/)
 * making the nav responsive
-    * uses [Favicon Generator](https://realfavicongenerator.net/)
 
 #### Favicon
+
+* used [Favicon Generator](https://realfavicongenerator.net/)
