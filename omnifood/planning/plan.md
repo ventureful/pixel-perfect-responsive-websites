@@ -139,4 +139,8 @@ Learn:
 
 Learn:
 * sticky nav
-    * use [Waypoints](http://imakewebthings.com/waypoints/) to trigger the sticky nav when scrolling
+    * uses [Waypoints](http://imakewebthings.com/waypoints/) to trigger the sticky nav when scrolling
+* scrolling to elements
+* add animations on scroll
+    * uses [Animate.css](https://animate.style/)
+* making the nav responsive
