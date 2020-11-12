@@ -207,8 +207,8 @@ input[type=submit] {
 
 header {
     /*the linear-gradient (from black to black) puts an overlay on the image so the text will show up*/
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0 ,0 ,0 , 0.7)), to(rgba(0, 0, 0, 0.7))), url('img/hero.jpg');
-    background-image: linear-gradient(rgba(0 ,0 ,0 , 0.7), rgba(0, 0, 0, 0.7)), url('img/hero.jpg');
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0 ,0 ,0 , 0.7)), to(rgba(0, 0, 0, 0.7))), url('img/hero-min.jpg');
+    background-image: linear-gradient(rgba(0 ,0 ,0 , 0.7), rgba(0, 0, 0, 0.7)), url('img/hero-min.jpg');
     background-size: cover; /*makes the image fit the viewport*/
     background-position: center;
     height: 100vh; /*makes it 100% of the viewport height*/
@@ -453,10 +453,10 @@ header {
 .section-testimonials {
     background-image: 
         -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), 
-        url(img/back-customers.jpg);
+        url(img/back-customers-min.jpg);
     background-image: 
         linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
-        url(img/back-customers.jpg);
+        url(img/back-customers-min.jpg);
     background-size: cover;
     color: #fff;
     background-attachment: fixed;

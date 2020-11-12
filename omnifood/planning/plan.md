@@ -124,6 +124,7 @@ Learn:
 * each browser renders HTML and CSS slightly differently
 * view on multiple browsers to check/test
 * use CSS browser prefixes to make CSS3 appear the same in every browser
+     
      ![Browser Prefixes](browserPrefixes.png "Browser Prefixes")
      
      * Note: in Brackets, use autoprefixer extension: `Edit -> Auto prefix selection`
@@ -148,3 +149,16 @@ Learn:
 #### Favicon
 
 * used [Favicon Generator](https://realfavicongenerator.net/)
+
+## Step 5: Optimization
+
+Basic things we will do:
+1. optimize heavy images
+    * change the image dimensions
+        * make sure to find the image size when it is its largest size due to the site being responsive
+        * if not inspecting on a high resolution screen, size the image twice as big to account for that
+        * can resize easily in preview on a mac
+        * [Optimizilla](https://imagecompressor.com/)
+2. minify CSS and jQuery code
+    * this removes comments and white space, making it very hard to read --- so only do as a final step before launching
+     site
