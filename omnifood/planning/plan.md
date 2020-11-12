@@ -129,7 +129,7 @@ Learn:
      * Note: in Brackets, use autoprefixer extension: `Edit -> Auto prefix selection`
 * JS scripts for older browsers     
 
-#### jQuery for effects
+#### jQuery for Effects
 
 * [Magnific Popup](https://dimsemenov.com/plugins/magnific-popup/)
 * [Tooltipster](https://www.heteroclito.fr/modules/tooltipster/)
@@ -144,3 +144,6 @@ Learn:
 * add animations on scroll
     * uses [Animate.css](https://animate.style/)
 * making the nav responsive
+    * uses [Favicon Generator](https://realfavicongenerator.net/)
+
+#### Favicon
